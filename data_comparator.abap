@@ -176,10 +176,4 @@ CLASS lcl_data_comparator IMPLEMENTATION.
       ENDIF.
     ENDIF.
   ENDMETHOD.
-
-**********************************************************************
-  METHOD clear_differences.
-    CLEAR: mv_diff.
-    CLEAR: mt_diff_report.
-  ENDMETHOD.
 ENDCLASS.
